@@ -1,0 +1,84 @@
+body {
+  --primary-color: rgb(60, 98, 100);
+  --primary-color-hover: rgb(41, 68, 69);
+  --secondary-color: rgb(43, 43, 45);
+  --secondary-color-hover: rgb(29, 29, 31);
+}
+
+a {
+  color: black;
+}
+
+.navbar-brand {
+  font-family: serif;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #797474;
+  font-size: 0.875rem;
+}
+
+.nav-link:hover {
+  color: #1a1a1a;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.primary-bg {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.secondary-bg {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.grey-bg {
+  background-color: rgb(240, 240, 240);
+}
+
+.btn-lg {
+  --bs-btn-border-radius: 0.25rem;
+}
+
+#sun {
+  font-size: 1.2rem;
+}
+
+.small-text {
+  font-size: 0.8rem;
+}
+
+.medium-text {
+  font-family: serif;
+  font-size: 3.5rem;
+}
+
+.big-text {
+  font-family: serif;
+  font-size: 4.5rem;
+}
+
+#nth {
+  image-orientation: 45deg;
+  width: 350px;
+}
+
+#github {
+  font-size: 1.5rem;
+}
+
+#halloffame {
+  font-size: 1rem;
+}
+
+
+
